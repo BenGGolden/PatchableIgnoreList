@@ -88,10 +88,10 @@
     <Compile Include="TrieNode.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\PatchableIgnoreList.config" />
+    <Content Include="App_Config\Include\zzz\PatchableIgnoreList.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\UserIgnoreList.config" />
+    <Content Include="App_Config\Include\zzz\UserIgnoreList.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
