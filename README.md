@@ -1,4 +1,4 @@
-# PatchableIgnoreList
+# Patchable Ignore List
 A replacement for Sitecore's IgnoreList processor for the httpRequestBegin pipeline.
 
 The standard IgnoreList processor for Sitecore's httpRequestBegin pipeline reads its prefixes
