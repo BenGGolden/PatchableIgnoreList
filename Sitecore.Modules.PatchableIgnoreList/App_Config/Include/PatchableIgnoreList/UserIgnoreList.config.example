@@ -1,9 +1,14 @@
 ﻿<?xml version="1.0"?>
+<!-- 
+To add your own ignored path prefixes, make a copy of this file,
+rename it to have a .config extension, and add your prefixes to it.
+-->
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
   <sitecore>
     <pipelines>
       <httpRequestBegin>
         <processor type="Sitecore.Modules.PatchableIgnoreList.PatchableIgnoreList,Sitecore.Modules.PatchableIgnoreList">
+          <!-- Add URL prefixes you do not wish Sitecore to process here. You may also patch this in multiple files (say, per site) -->
           <prefixes>
             <prefix desc="css">/legacyApp/</prefix>
             <prefix desc="benchmark">/PrefixSetBenchmark.aspx</prefix>
