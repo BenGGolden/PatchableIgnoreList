@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Sitecore.PatchableIgnoreList</id>
+    <version>$version$</version>
+    <authors>Ben Golden</authors>
+    <owners>Ben Golden</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/BenGGolden/PatchableIgnoreList</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A replacement for Sitecore's IgnoreList processor for the httpRequestBegin pipeline.</description>
+    <tags>sitecore serialization</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
