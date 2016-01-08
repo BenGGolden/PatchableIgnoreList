@@ -70,7 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
-    <Content Include="PrefixSetBenchmark.aspx" />
+    <None Include="PrefixSetBenchmark.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IPrefixSet.cs" />
@@ -88,10 +88,11 @@
     <Compile Include="TrieNode.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\PatchableIgnoreList.config" />
+    <Content Include="App_Config\Include\PatchableIgnoreList\PatchableIgnoreList.config" />
+    <Content Include="App_Config\Include\PatchableIgnoreList\UserIgnoreList.config.example" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\zzz\UserIgnoreList.config" />
+    <Content Include="Sitecore.Modules.PatchableIgnoreList.nuspec" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
