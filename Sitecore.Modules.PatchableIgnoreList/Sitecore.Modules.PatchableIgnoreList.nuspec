@@ -9,7 +9,7 @@
     <projectUrl>https://github.com/BenGGolden/PatchableIgnoreList</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A replacement for Sitecore's IgnoreList processor for the httpRequestBegin pipeline.</description>
-    <tags>sitecore serialization</tags>
+    <tags>sitecore</tags>
     <dependencies>
     </dependencies>
   </metadata>
